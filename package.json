@@ -1,0 +1,21 @@
+{
+  "name": "dio-introduction-reactjs",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido no curso de Introdução a ReactJS na Digital Innovation One",
+  "main": "index.js",
+  "repository": "https://github.com/Fernandoborgesjr/dio-introduction-reactjs.git",
+  "author": "Fernando Borges",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
