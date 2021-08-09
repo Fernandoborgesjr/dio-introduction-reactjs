@@ -1,19 +1,5 @@
 import React from "react";
-
-const customers = [
-  {
-    id: 1,
-    nome: 'Fernando'
-  },
-  {
-    id: 2,
-    nome: 'Moreira'
-  },
-  {
-    id: 3,
-    nome: 'Borges'
-  }
-];
+import { customers } from "./mock";
 
 const ListasChaves = () => {
   const renderShowCustomer = (customer) => {
